@@ -3,7 +3,7 @@ objects = [];
 status = "";
 
 function preload() {
-    img = loadImage('bed.jpg');
+    img = loadImage('bottle.jpg');
 }
 function setup() {
     canvas = createCanvas(650, 450);
@@ -40,6 +40,6 @@ function draw() {
              stroke("#A020F0");
              rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
         }
-        document.getElementById("objects").innerHTML = "There are two big objects in the picture and cocossd has identified both of them.";
+        document.getElementById("objects").innerHTML = "There are 3 big objects in the picture and cocossd has identified one of them.";
     } 
 }
